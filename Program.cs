@@ -17,11 +17,11 @@ if (DayWeek<8)
 bool days_of_the_weeks = day_of_the_week(DayWeek);
 if (days_of_the_weeks==true)
 {
-Console.WriteLine($"День недели {DayWeek} рабочий");
+Console.WriteLine($"День недели {DayWeek} выходной");
 }
 else
 {
-Console.WriteLine($"День недели {DayWeek} выходной");
+Console.WriteLine($"День недели {DayWeek} рабочий");
 }
 }
 else
