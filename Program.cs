@@ -57,7 +57,7 @@ int digit2(int number)
     chislo=chislo/10;
     return chislo;
 }
-Console.WriteLine($"Enter the number");
+Console.WriteLine($"Введите техзначное число");
 int number3=Convert.ToInt32(Console.ReadLine());
 int numeric = digit2(number3);
-Console.WriteLine($"Second digit of the number {number3} it {numeric}");
+Console.WriteLine($"Вторая цифра в числе {number3} это {numeric}");
