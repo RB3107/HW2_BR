@@ -30,7 +30,7 @@ else
 }*/
 
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-void ThirdDigit(int digit)
+/*void ThirdDigit(int digit)
 {
     if(digit>=100)
     {
@@ -48,4 +48,7 @@ void ThirdDigit(int digit)
 }
 Console.WriteLine($"Введите число");
 int digit1=Convert.ToInt32(Console.ReadLine());
-ThirdDigit(digit1);
+ThirdDigit(digit1);*/
+
+//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
