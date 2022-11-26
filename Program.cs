@@ -39,13 +39,13 @@ void ThirdDigit(int digit)
             digit=digit/10;
         }
         digit=digit%10;
-        Console.WriteLine($"Third digit of a given number {digit}");
+        Console.WriteLine($"Третья цифра заданного числа {digit}");
     }
     else
     {
-        Console.WriteLine("There is no third number.");
+        Console.WriteLine("Нет третьей цифры в заданном числе.");
     }
 }
-Console.WriteLine($"Enter the number");
+Console.WriteLine($"Введите число");
 int digit1=Convert.ToInt32(Console.ReadLine());
 ThirdDigit(digit1);
