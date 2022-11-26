@@ -51,4 +51,13 @@ int digit1=Convert.ToInt32(Console.ReadLine());
 ThirdDigit(digit1);*/
 
 //Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
+int digit2(int number)
+{
+    int chislo = number%100;
+    chislo=chislo/10;
+    return chislo;
+}
+Console.WriteLine($"Enter the number");
+int number3=Convert.ToInt32(Console.ReadLine());
+int numeric = digit2(number3);
+Console.WriteLine($"Second digit of the number {number3} it {numeric}");
