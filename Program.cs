@@ -59,7 +59,7 @@ void ThirdDigit(int digit)
 Console.WriteLine($"Enter the number");
 int digit1=Convert.ToInt32(Console.ReadLine());
 ThirdDigit(digit1);
-{digit}");
+{digit};
 }
 else
 {
