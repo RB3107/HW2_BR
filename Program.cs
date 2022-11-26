@@ -1,10 +1,30 @@
 ﻿// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-Console.Write("Введите число от 1 до 7:");
-num = Convert.ToInt32(Console.ReadLine());
-if (num >= 1 && num <= 7)
+bool day_of_the_week(int day)
 {
-if (num == 6 | num == 7) Console.WriteLine("Сегодня выходной");
-else Console.WriteLine("Сегодня рабочий день");
+if(day >= 6 && day <= 7)
+{
+return true;
+ }
+else
+{
+return false;
 }
-else Console.WriteLine("Не верное число");
-break;
+}
+Console.WriteLine($"Введите цифру, обозначающую день недели");
+int DayWeek=Convert.ToInt32(Console.ReadLine());
+if (DayWeek<8)
+{
+bool days_of_the_weeks = day_of_the_week(DayWeek);
+if (days_of_the_weeks==true)
+{
+Console.WriteLine($"День недели {DayWeek} рабочий");
+}
+else
+{
+Console.WriteLine($"День недели {DayWeek} выходной");
+}
+}
+else
+{
+   Console.WriteLine($"Нет такого дня недели");
+}
